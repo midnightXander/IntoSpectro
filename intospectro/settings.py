@@ -146,3 +146,7 @@ if 'DATABASE_URL' in os.environ:
         conn_health_checks = True,
     )
 
+
+import mimetypes
+mimetypes.add_type("text/css", ".css", True)
+mimetypes.add_type("text/javascript",".js",True)
