@@ -1,0 +1,76 @@
+{% extends "core/base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="container">
+    <div class="success">
+    <p>Votre inscription a été un succès.</p>
+
+</div>
+</div>
+
+<section id="subscription">
+    <div class="container subscribe">
+        <p>Souscrivez a un essaie gratuit d'un mois</p>
+
+        <form class="form" method="post">
+
+            {% csrf_token %}
+            <input type="email" name="email" placeholder="Votre email"><br>
+            <select name="topic">
+                <option value="recettes">Recettes et patisseries</option>
+                <option value="ecommerce">Aide et Conseil E-commerce</option>
+                <option value="divertissement">Divertissement</option>
+                <option value="coaching">Coaching et développement personnel</option>
+            </select>
+            <button type="submit" class="subscribe-btn">SOUSCRIRE</button>
+        </form>
+        
+    
+    </div>
+</section>
+<section id="topics">
+    <div class="container">
+         <h2>Nos sujets</h2>
+         <ol>
+            <li>
+                <h4>Recettes Africaines et de patisseries adaptées a differents évenement</h4>
+                <p>Vous recevez des recettes de plats Africains et des guide pour bien reussir vos patisseries.Des recettes de plats venant des quatres coins du continent Africain et dans quels occasions(mariages,anniversaire,brunch...) elles sont les mieux adapté.
+                Vous recevez egalement des alternatives pour les ingredidents rares a trouver.    
+                </p>
+            </li>
+            <li>
+                <h4>Conseil et accompagnement pour vous lancer dans le e-commerce</h4>
+                <p>Vous recevez des multitudes d'experiences d'E-commercant a succés ainsi que des conseils, les erreurs a ne pas commettre, comment bien débuté, et comment transformer un petit business de vente en ligne a une grande entreprise d'E-commerce pouvant generer plus de <h6><em>600,000XAF</em></h6> par mois.
+                </p>
+            </li>
+            <li>
+                <h4>Divertissement: histoire drole,blague,romance,aventure</h4>
+                <p>Parceque vous avez besoin de destresser, vous recevrez des histoire drole et divertissantes touchant sur plusieurs sujets variés.
+                </p>
+            </li>
+            <li>
+                <h4>Coaching: développement personnel</h4>
+                <p>Vous recevrez un guide hebdomadaire personalisé pour VOUS. Devenez la meilleur version de vous meme aujourd'hui et atteiniez vos objectifs.
+                </p>
+            </li>
+         </ol>
+    </div>
+   
+
+</section>
+<section id="info">
+    <div class="container">
+         <h2>Comment ça marche?</h2>
+         <ol>
+            <li>Entrez votre adress Email pour vous inscrire a la newsletter</li>
+            <li>Choisissez un sujet et appuyez sur <a href="#subscription">Souscrire</a> pour commencer un essaie gratuit.</li>
+            <li>Vous allez commencer a recevoir votre contenu personalisé de manière hebdomadaire dans votre boite mail</li>
+            <li>pas de pub ni de contenu derisoire ne vous serons envoyé.</li>
+         </ol>
+    </div>
+   
+
+</section>
+
+{% endblock content %}

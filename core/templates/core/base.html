@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta>
+        <meta>
+        <title>Into Spectro</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <body>
+        <nav>
+            <a href="{% url 'core:index' %}"><h2>Into Spectro</h2></a>
+            <a href="{% url 'core:pricing' %}"><h3>Prix</h3></a>
+        </nav>
+       {% block content %}
+       {% endblock content %}
+        <footer>
+        <a href="{% url 'core:index' %}">&copy; Into Spectro-2024 </a>
+       </footer> 
+        
+
+        <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+        <script src="{% static 'js/sub_app.js' %}"></script>
+        
+    </body>
+</html>

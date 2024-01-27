@@ -1,0 +1,98 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Process Payment</title>
+    <style>
+
+    </style>
+    <link href="{% static 'css/style.css' %}">
+    <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+</head>    
+<body>
+
+<main>
+   
+    <h3>Into Spectro</h3>
+<form method="post" action="{% url 'core:payment' profile.sub_email sub_id %}">
+
+{% csrf_token %}
+    <div>
+{% if sub_id == 1 %}
+<p>Vous avez choisi de payer 1000 XAF pour un mois(Un sujet)</p>
+<small>Choisissez votre sujet</small>
+<select  name="topic">
+    <option value="recette">Recettes</option>
+    <option value="ecommerce">Guide e-commerce</option>
+    <option value="divertissement">Divertissement</option>
+    <option value="coaching">Coaching</option>
+</select>
+<p><span id="to-pay">1000</span> XAF</p>
+<input type="hidden" name="to_pay">
+<button id="">Payer</button>
+
+{% elif sub_id == 2 %}
+<p>Vous avez choisi de payer 10000 XAF pour un an(Un sujet)</p>
+<small>Choisissez votre sujet</small>
+<select name="topic">
+    <option value="recette">Recettes</option>
+    <option value="ecommerce">Guide e-commerce</option>
+    <option value="divertissement">Divertissement</option>
+    <option value="coaching">Coaching</option>
+</select>
+<p><span id="to-pay">10,000</span> XAF</p>
+<button id="">Payer</button>
+{% elif sub_id == 3 %}
+<p>Vous avez choisi  de payer 3,300XAF pour un mois(Tout les sujets)</p>
+<input type="checkbox" value="recette" checked>
+<input type="checkbox" value="divertissement" checked>
+<input type="checkbox" value="coaching" checked>
+<input type="checkbox" value="ecommerce" checked>
+<p><span id="to-pay">3300</span> XAF</p>
+<button id="">Payer</button>
+{% elif sub_id == 4 %}
+<p>Vous avez choisi de payer 33,000XAF pour un an(Tout les sujets)</p>
+<input type="checkbox" value="recette" checked>
+<input type="checkbox" value="divertissement" checked>
+<input type="checkbox" value="coaching" checked>
+<input type="checkbox" value="ecommerce" checked>
+<p><span id="to-pay">33000</span> XAF</p>
+<button id="">Payer</button>
+{% elif sub_id == 5 %}
+<p>Vous avez choisi de personalisé votre offre(1000 XAF par sujet)</p>
+<small>Choisissez vos sujets</small>
+<input id="s1" class="topic" type="checkbox" name="topic1" value="recettes" checked>Recettes
+<input id="s2" class="topic" type="checkbox" name="topic2" value="ecommerce">Guide e-commerce
+<input id="s3" class="topic" type="checkbox" name="topic3" value="divertissement">Divertissement
+<input id="s4" class="topic" type="checkbox" name="topic4" value="coaching">Coaching<br>
+<input id="n-month" type="number" name="months" placeholder="nombre de mois" min="1" max="12" value="1">
+<p><span id="to-pay">1000</span> XAF</p>
+<button id="calculate">Calculer</button>
+
+{% endif %} 
+    </div>
+<div>
+    <div>{{profile.sub_email}}</div>
+    
+        <select name="payment_method">
+            <option value="">Orange Money</option>
+            <option value="">MTN mobile Money</option>
+            <option value="">Card</option>
+        </select>
+        <input type="text" placeholder="numero de telephone">
+        <!-- <input type="text" placeholder=""> -->
+        <button type="submit">Payer</button>
+
+    </form>
+</div> 
+<form action="" method="get" data-monetbil="form">
+    <button class="" type="submit">Pay by Mobile Money</button>
+</form>
+</main>
+
+
+
+<script src="{% static 'js/pay_app.js' %}"></script>
+<script type="text/javascript" src="https://www.monetbil.com/widget/v2/monetbil.min.js"></script>
+</body>
+</html>
