@@ -8,8 +8,7 @@ import ssl
 import os
 from email.message import EmailMessage
 
-# gmail_adress = "intospectro.newsletter@gmail.com"
-# gmail_pwd = "zldt fevv sxat bnim"
+
 gmail_adress = os.environ.get('GMAIL_ADRESS')
 gmail_pwd = os.environ.get('GMAIL_PWD')
 
