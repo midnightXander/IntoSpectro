@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=DM Sans');
+
+:root{
+    --purple:rgb(136, 12, 237,0.7);
+}
+*{
+    font-family: 'DM Sans';
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    box-shadow: 2px 2px 2px silver;
+    height: 20%;
+}
+ footer{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    border: 1px solid silver;
+    height: 10%;
+    width: 100%;
+    /* position: sticky; */
+} 
+
+a{
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    margin:2rem auto;
+    flex-direction: column;
+    row-gap: 0.7rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.subscribe{
+    background-color: var(--purple);
+    color: white;
+    padding: 2rem;
+    width:80%;
+    height: 100%;
+}
+.subscribe-btn{
+    width: 30%;
+    height: 2rem;
+    background-color: blueviolet;
+    border: 2px solid black;
+}
+.container ol{
+    padding: 2rem;
+}
+.subscribe-btn:nth-of-type(1){
+    background-color: white;
+}
+
+button:hover{
+    cursor: pointer;
+}
+/* .btn-sub{
+    width: 50%;
+
+} */
+.container input{
+    width: 30%;
+    height: 2rem;
+    outline: 1px solid palevioletred; 
+    /* outline: none; */
+    outline-offset: 2px;
+
+}
+/* #pricing{
+    margin: 2rem auto;
+} */
+#pricing{
+    height: 1000px;
+}
+.price-container{
+    margin: 2rem auto;
+    height: 90%;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 2px;
+
+}
+@media(width<768px){
+    #pricing{
+        height: 2000px;
+    }
+    .price-container{
+        grid-template-columns: 1fr;
+    }
+    .price-container div{
+        grid-column: 1/3;
+    }
+}
+.price-container div{
+    border: 1px solid var(--purple);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding-bottom: 7px;
+    background-color: rgb(130, 230, 250,0.1);
+    box-shadow: 0px 0px 8px silver ;
+    
+}
+.price-container div:nth-of-type(5){
+    grid-column:1/3 ;
+    border: 1px solid aqua;
+}
+
+.price-container div:nth-of-type(2),.price-container div:nth-of-type(4){
+    border: 1px solid gold;
+}
+
+
+ .price-container{
+    padding-top: 0;
+} 
+.container h2{
+    color: var(--purple);
+    text-decoration: underline;
+}
+.price-head{
+    background-color: var(--purple);
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 0;
+    text-align: center;
+}
+.yearly{
+    background-color: gold;
+}
+.custom{
+    background-color: aqua;
+}
+
+.subscribe-btn:hover{
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+
+}
+.form{
+    height: 100%; 
+    width: 100%; 
+    display: flex; 
+    justify-content: center; 
+    flex-direction: column; 
+    align-items: center; 
+    row-gap: 10px;
+}
+.abs{
+    margin: auto;
+}
+.pop-up{
+    /* display: none; */
+    background-color: white;
+    position: fixed;
+    top: 50%; 
+    padding: 1rem;
+    padding-bottom: 2rem;
+    left: 20%; 
+    width: 50%;
+    height: 10%;
+    z-index: 10;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 4px silver;
+
+}
+
+#pop-up-form{
+    display: none;
+}
+.op{
+    opacity: 0.3;
+}
+ /* section{
+    opacity: 0.3;
+}   */
