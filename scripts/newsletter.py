@@ -1,16 +1,18 @@
 import smtplib
 import ssl
-
+import os
 from email.message import EmailMessage
 from .contents import *
 from datetime import date,datetime
 from core.models import  Profile
 gmail_adress = 'intospectro.newsletter@gmail.com'
 gmail_pwd = 'zldt fevv sxat bnim'
+#gmail_adress = os.environ.get('GMAIL_ADRESS')
+#gmail_pwd = os.environ.get('GMAIL_PWD')
 
 email = EmailMessage()
 email['From'] = gmail_adress
-#print(datetime.now().strftime('%a'))
+
 
 all_profiles = Profile.objects.all()
 

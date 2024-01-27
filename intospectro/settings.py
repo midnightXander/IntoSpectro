@@ -20,16 +20,15 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-mz0ihr9)9o=@w2fr6o!5y(^tai($w0x-fsl4yt2jznkir30bmi'
 
-#os.environ.get('DJANGO_SECRET_KEY','django-insecure-mz0ihr9)9o=@w2fr6o!5y(^tai($w0x-fsl4yt2jznkir30bmi')
+os.environ.get('DJANGO_SECRET_KEY','django-insecure-mz0ihr9)9o=@w2fr6o!5y(^tai($w0x-fsl4yt2jznkir30bmi')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 #DEBUG = True
 
 os.environ.get('DJANGO_DEBUG','') != 'False'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -52,6 +51,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -134,3 +134,13 @@ STATICFILES_DIR = [os.path.join(BASE_DIR,'static')]
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Update database configuration from $DATABASE_URL environment variable (if defined)
+import dj_database_url
+
+if 'DATABASE_URL' in os.environ:
+    DATABASES['default'] = dj_database_url.config(
+        conn_max_age = 500,
+        conn_health_checks = True,
+    )
+
