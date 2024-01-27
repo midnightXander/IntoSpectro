@@ -1,1 +1,1 @@
-web: python manage.py migrate && python manage.py collectstatic --no-input && python manage.py runscript newsletter &&gunicorn locallibrary.wsgi 
+web: python manage.py migrate && python manage.py collectstatic --no-input && python manage.py runscript newsletter &&gunicorn intospectro.wsgi 
