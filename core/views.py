@@ -5,11 +5,13 @@ from django.urls import reverse
 from datetime import date,datetime
 import smtplib
 import ssl
-
+import os
 from email.message import EmailMessage
 
-gmail_adress = "intospectro.newsletter@gmail.com"
-gmail_pwd = "zldt fevv sxat bnim"
+# gmail_adress = "intospectro.newsletter@gmail.com"
+# gmail_pwd = "zldt fevv sxat bnim"
+gmail_adress = os.environ.get('GMAIL_ADRESS')
+gmail_pwd = os.environ.get('GMAIL_PWD')
 
 def send_welcome_email(topic,recipient_email):
     email = EmailMessage()
