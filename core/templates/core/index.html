@@ -4,13 +4,19 @@
 {% block content %}
 <style>
     .describe-topic{
-        padding: 2rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        background-color: aliceblue ;
+    }
+    #msg{
+        color: green;
     }
 </style>
 <div class="container">
     <div class="success">
-    <!-- <p>Votre inscription a été un succès.</p> -->
-
+        {% for message in messages %}
+    <p id="mesg">{{message}}</p> 
+        {% endfor %}
 </div>
 </div>
 
@@ -21,7 +27,7 @@
         <form class="form" method="post">
 
             {% csrf_token %}
-            <input type="email" name="email" placeholder="Votre email"><br>
+            <input id="free-em" type="email" name="email" placeholder="Votre email"><br>
             <select name="topic">
                 <option value="recettes">Recettes et patisseries</option>
                 <option value="ecommerce">Aide et Conseil E-commerce</option>
@@ -39,14 +45,15 @@
          <h2>Nos sujets</h2>
          <ol>
             <li class="describe-topic">
+                <!-- <box-icon type='solid' name='bowl-hot'></box-icon> -->
                 <h4>Recettes Africaines et de patisseries adaptées a differents évenement</h4>
-                <p>Vous recevez des recettes de plats Africains et des guide pour bien reussir vos patisseries.Des recettes de plats venant des quatres coins du continent Africain et dans quels occasions(mariages,anniversaire,brunch...) elles sont les mieux adapté.
-                Vous recevez egalement des alternatives pour les ingredidents rares a trouver.    
+                <p><em> recevez des recettes de plats Africains et des guide pour bien reussir vos patisseries.Des recettes de plats venant des quatres coins du continent Africain et dans quels occasions(mariages,anniversaire,brunch...) elles sont les mieux adapté.
+                Vous recevez egalement des alternatives pour les ingredidents rares a trouver.  </em>  
                 </p>
             </li>
             <li class="describe-topic">
                 <h4>Conseil et accompagnement pour vous lancer dans le e-commerce</h4>
-                <p>Vous recevez des multitudes d'experiences d'E-commercant a succés ainsi que des conseils, les erreurs a ne pas commettre, comment bien débuté, et comment transformer un petit business de vente en ligne a une grande entreprise d'E-commerce pouvant generer plus de <span>600,000XAF</span> par mois.
+                <p>Vous recevez des multitudes d'experiences d'E-commercant a succés ainsi que des conseils, les erreurs a ne pas commettre, comment bien débuté, et comment transformer un petit business de vente en ligne a une grande entreprise d'E-commerce pouvant generer plus de <span style="font-size: 15pt; font-weight: 500;">600,000XAF</span> par mois.
                 </p>
             </li>
             <li class="describe-topic">

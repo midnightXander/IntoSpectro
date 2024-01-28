@@ -2,6 +2,7 @@ from django.shortcuts import render,redirect
 from .models import Profile
 from django.http import HttpResponseRedirect,Http404
 from django.urls import reverse
+from django.contrib import messages
 from datetime import date,datetime
 import smtplib
 import ssl
@@ -61,7 +62,7 @@ def index(request):
     if request.method == "POST":
         email = request.POST['email']
         topic = request.POST['topic'] 
-
+        
         profile = Profile.objects.create(sub_email=email,
         sub_topic = topic,sub_start_date = datetime.now(),sub_end_date= datetime.now(),sent_free_emails=0,
         sent_prem_emails=0,
@@ -69,6 +70,7 @@ def index(request):
         profile.sub_end_date=get_end_date(profile)
         profile.save()
 
+        messages.info(request,'Votre inscription a été un succès')
         send_welcome_email(topic,email)
         
     return render(request,"core/index.html")
