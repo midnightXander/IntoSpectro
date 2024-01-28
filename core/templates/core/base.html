@@ -233,7 +233,8 @@ ul{
 </head>
     <body>
         <nav>
-            <a href="{% url 'core:index' %}"><img width="130" height="80" href="{% static 'img/1-removebg-preview.png' %}"></a>
+            <a href="{% url 'core:index' %}"><!--<img width="130" height="80" href="{% static 'img/1-removebg-preview.png' %}">-->
+            <h2>Into Spectro</h2></a> 
             <a href="{% url 'core:pricing' %}"><h3>Prix</h3></a>
         </nav>
        {% block content %}
