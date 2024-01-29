@@ -2,97 +2,270 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1" >
+    <meta name="description" content="Paymentt Process Into Spectro">
+    <meta http-equiv="X-UA compatible" content="IE=edge">
     <title>Process Payment</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM Sans');
 
+        :root{
+            --purple:rgb(136, 12, 237,0.7);
+        }
+        *{
+            font-family: 'DM Sans';
+        }
+        body{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            line-height: 1.5;
+            height: 100vh;
+            background-color: aliceblue;
+        }
+        h2:nth-of-type(1){
+            color: var(--purple);
+            border: 1px solid;
+            text-align: center;
+            background-color: silver 0.5;
+        }
+        h4{
+            text-align: center;
+            text-decoration: overline;
+            border-radius: 50px;
+        }
+        select{
+            background-color: aliceblue;
+        }
+        div{
+            border: 1px solid silver;
+            border-radius: 5px;
+            box-shadow: 0px 0px 3px silver;
+            padding: 5rem;
+            margin: auto;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            row-gap: 1rem;
+        }
+        span{
+            font-size: 14pt;
+            font-weight: 600;
+        }
+        .tp-contain{
+            border: 1px solid silver;
+            width: 100%;
+            text-align: center;
+        }
+        .check{
+            align-self: flex-start;
+        }
+        #n-month{
+            width: 25%;
+            background-color: aliceblue;
+        }
+        @media (width<768px) {
+            .resp-span{
+                font-size: 12pt;
+            }
+        }
+        /* #s1,#s2,#s3,#s4{
+            
+        } */
     </style>
     <link href="{% static 'css/style.css' %}">
     <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+    <script src="https://cdn.cinetpay.com/seamless/main.js"></script>
 </head>    
 <body>
 
 <main>
    
-    <h3>Into Spectro</h3>
-<form method="post" action="{% url 'core:payment' profile.sub_email sub_id %}">
+    <h2>Into Spectro</h2>
+<!-- <form method="post" action="{% url 'core:payment' profile.sub_email sub_id %}"> -->
+<h4>{{profile.sub_email}}</h4>
+<hr>
 
-{% csrf_token %}
-    <div>
 {% if sub_id == 1 %}
-<p>Vous avez choisi de payer 1000 XAF pour un mois(Un sujet)</p>
+<div>
+    <p>Vous avez choisi de payer 1000 XAF pour un mois(Un sujet)</p>
 <small>Choisissez votre sujet</small>
 <select  name="topic">
     <option value="recette">Recettes</option>
     <option value="ecommerce">Guide e-commerce</option>
     <option value="divertissement">Divertissement</option>
-    <option value="coaching">Coaching</option>
+    <option value="coaching">Coaching(développement personnel)</option>
 </select>
-<p><span id="to-pay">1000</span> XAF</p>
+<p class="tp-contain"><span id="to-pay">1000</span> XAF</p>
 <input type="hidden" name="to_pay">
-<button id="">Payer</button>
+<button id="" onclick="checkout()">Payer</button>
+</div>
+
 
 {% elif sub_id == 2 %}
+<div>
+
 <p>Vous avez choisi de payer 10000 XAF pour un an(Un sujet)</p>
 <small>Choisissez votre sujet</small>
 <select name="topic">
     <option value="recette">Recettes</option>
     <option value="ecommerce">Guide e-commerce</option>
     <option value="divertissement">Divertissement</option>
-    <option value="coaching">Coaching</option>
+    <option value="coaching">Coaching(développement personnel)</option>
 </select>
-<p><span id="to-pay">10,000</span> XAF</p>
-<button id="">Payer</button>
+<p class="tp-contain"><span id="to-pay">10000</span> XAF</p>
+<button id="" onclick="checkout()">Payer</button>
+
+</div>
+
 {% elif sub_id == 3 %}
+<div>
+
 <p>Vous avez choisi  de payer 3,300XAF pour un mois(Tout les sujets)</p>
-<input type="checkbox" value="recette" checked>
-<input type="checkbox" value="divertissement" checked>
-<input type="checkbox" value="coaching" checked>
-<input type="checkbox" value="ecommerce" checked>
-<p><span id="to-pay">3300</span> XAF</p>
-<button id="">Payer</button>
+<span class="resp-span"> <input class="check" type="checkbox" value="recette" disabled checked>Recettes Africaines et Patisseries</span>
+<span class="resp-span"> <input class="check" type="checkbox" value="divertissement" disabled checked>Divertissement(Blagues,histoire drole)</span>
+<span class="resp-span"> 
+<input class="check" type="checkbox" value="coaching" disabled checked>Coaching et développement personel</span>
+<span class="resp-span"> <input class="check" type="checkbox" value="ecommerce" disabled checked>Guide réussir en e-commerce</span>
+
+
+
+<p class="tp-contain"><span id="to-pay">3300</span> XAF</p>
+<button id="" onclick="checkout()">Payer</button>
+
+</div>
+
 {% elif sub_id == 4 %}
-<p>Vous avez choisi de payer 33,000XAF pour un an(Tout les sujets)</p>
-<input type="checkbox" value="recette" checked>
-<input type="checkbox" value="divertissement" checked>
-<input type="checkbox" value="coaching" checked>
-<input type="checkbox" value="ecommerce" checked>
-<p><span id="to-pay">33000</span> XAF</p>
-<button id="">Payer</button>
+<div>
+
+<p>Vous avez choisi de payer 33000XAF pour un an(Tout les sujets)</p>
+<span class="resp-span">
+    <input class="check" type="checkbox" value="recette" disabled checked>Recettes Africaines et Patisseries
+</span>
+<span class="resp-span">
+    <input class="check" type="checkbox" value="divertissement" disabled checked>Divertissement(Blagues,histoire drole)
+</span>
+<span class="resp-span">
+<input class="check" type="checkbox" value="coaching" disabled checked>Coaching et développement personel</span>
+<span class="resp-span"><input class="check" type="checkbox" value="ecommerce" disabled checked>Guide réussir en e-commerce</span>
+<p class="tp-contain"><span id="to-pay">33000</span> XAF</p>
+<button id="" onclick="checkout()">Payer</button>
+
+</div>
+
 {% elif sub_id == 5 %}
-<p>Vous avez choisi de personalisé votre offre(1000 XAF par sujet)</p>
+<div>
+
+    <p>Vous avez choisi de personalisé votre offre(1000 XAF par sujet)</p>
 <small>Choisissez vos sujets</small>
-<input id="s1" class="topic" type="checkbox" name="topic1" value="recettes" checked>Recettes
-<input id="s2" class="topic" type="checkbox" name="topic2" value="ecommerce">Guide e-commerce
-<input id="s3" class="topic" type="checkbox" name="topic3" value="divertissement">Divertissement
-<input id="s4" class="topic" type="checkbox" name="topic4" value="coaching">Coaching<br>
-<input id="n-month" type="number" name="months" placeholder="nombre de mois" min="1" max="12" value="1">
-<p><span id="to-pay">1000</span> XAF</p>
-<button id="calculate">Calculer</button>
+<span class="resp-span"><input id="s1" class="topic cal check" name="topic1" type="checkbox" value="recette"  checked>Recettes Africaines et Patisseries</span>
+<span class="resp-span"><input id="s2" class="topic cal check" name="topic2" type="checkbox" value="divertissement"  >Divertissement(Blagues,histoire drole)</span>
+<span class="resp-span">
+<input id="s3" class="topic cal check" name="topic3" type="checkbox" value="coaching">Coaching et développement personel</span>
+<span class="resp-span"><input id="s4" class="topic cal check" name="topic4" type="checkbox" value="ecommerce"  >Guide réussir en e-commerce</span>
+
+<!-- <input id="s1" class="topic cal" type="checkbox" name="topic1" value="recettes" checked>Recettes
+<input id="s2" class="topic cal" type="checkbox" name="topic2" value="ecommerce">Guide e-commerce
+<input id="s3" class="topic cal" type="checkbox" name="topic3" value="divertissement">Divertissement
+<input id="s4" class="topic cal" type="checkbox" name="topic4" value="coaching">Coaching(développement personnel)<br> -->
+<label for="months">Mois de validité:</label>
+<input id="n-month" class="cal" type="number" name="months" placeholder="nombre de mois" min="1" max="12" value="1">
+<p class="tp-contain"><span id="to-pay">1000</span> XAF</p>
+<button id="" onclick="checkout()">Payer</button>
+</div>
+
+
+
 
 {% endif %} 
     </div>
-<div>
-    <div>{{profile.sub_email}}</div>
-    
-        <select name="payment_method">
-            <option value="">Orange Money</option>
-            <option value="">MTN mobile Money</option>
-            <option value="">Card</option>
-        </select>
-        <input type="text" placeholder="numero de telephone">
-        <!-- <input type="text" placeholder=""> -->
-        <button type="submit">Payer</button>
 
-    </form>
-</div> 
-<form action="https://sandbox.expresspaygh.com/api/submit.php" method="post">
+    
+    
+        <!-- <button type="submit">Payer</button> -->
+
+    <!-- </form> -->
+
+<!-- <form action="https://sandbox.expresspaygh.com/api/submit.php" method="post">
     <button class="" type="submit">Pay by Mobile Money</button>
-</form>
+</form> -->
 </main>
 
 
 
 <script src="{% static 'js/pay_app.js' %}"></script>
-<script type="text/javascript" src="https://www.monetbil.com/widget/v2/monetbil.min.js"></script>
+<!-- <script type="text/javascript" src="https://www.monetbil.com/widget/v2/monetbil.min.js"></script> -->
+<script>
+    var to_pay = parseInt($("#to-pay").text());
+    const radios = document.querySelectorAll(".topic");
+    const n_month = document.querySelector("#n-month")
+    
+if({{sub_id}}==5){
+    $(".cal").on("change",()=>{
+        let c_count=0;
+        let it = 0;
+        for(let i=0; i < radios.length; i++){
+                it = radios[i].checked?1:0;
+                c_count += it;
+        }
+        var amount = c_count*(n_month.value)*(1000)
+        if(n_month.value>9){
+            amount = c_count*(10)*(1000)
+        }
+        $("#to-pay").text(amount)
+        to_pay = parseInt(amount);
+        
+    })
+}
+
+    function checkout() {
+        CinetPay.setConfig({
+            apikey: '14002390165b6ed39d70f06.60691060',//   YOUR APIKEY
+            site_id: '5867833',//YOUR_SITE_ID
+            notify_url: 'http://mondomaine.com/notify/',
+            mode: 'PRODUCTION',
+            // return_url:"",
+        });
+        CinetPay.getCheckout({
+            transaction_id: Math.floor(Math.random() * 100000000).toString(), // YOUR TRANSACTION ID
+            amount: to_pay,
+            currency: 'XAF',
+            channels: 'ALL',
+            description: 'Souscription',   
+             //Fournir ces variables pour le paiements par carte bancaire
+            // customer_name:"Joe",//Le nom du client
+            // customer_surname:"Down",//Le prenom du client
+            customer_email: "{{profile.sub_email}}",//l'email du client
+            // customer_phone_number: "088767611",//l'email du client
+            // customer_address : "BP 0024",//addresse du client
+            // customer_city: "Antananarivo",// La ville du client
+            // customer_country : "CM",// le code ISO du pays
+            // customer_state : "CM",// le code ISO l'état
+            // customer_zip_code : "06510", // code postal
+
+        });
+        CinetPay.waitResponse(function(data) {
+            if (data.status == "REFUSED") {
+                if (alert("Votre paiement a échoué")) {
+                    window.location.reload();
+                }
+                $.ajax({
+                url:"{% url 'core:payment' profile.sub_email sub_id %}",
+                "type":"POST",
+                data:{csrfmiddlewaretoken:"{{csrf_token}}"},
+                });
+            } else if (data.status == "ACCEPTED") {
+                if (alert("Votre paiement a été effectué avec succès")) {
+                    window.location.reload();
+                }
+            }
+        });
+        CinetPay.onError(function(data) {
+            console.log(data);
+        });
+    }
+</script>
 </body>
 </html>
