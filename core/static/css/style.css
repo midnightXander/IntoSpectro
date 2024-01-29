@@ -120,6 +120,11 @@ button:hover{
         width: 60%;
     }
 }
+@media(width<500px){
+    .price-container {
+        font-size: 12pt;
+    }
+}
 .icon{
     margin-top: 0.5rem;
 }

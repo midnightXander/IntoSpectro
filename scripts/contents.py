@@ -5,11 +5,11 @@ follow_up_content = [
     <head><head>
     Bonjour chère membre,
 
-Nous espérons que vous profitez pleinement de notre newsletter et que vous appréciez nos articles et contenus exclusifs. Nous tenions simplement à vous rappeler que votre souscription arrivera bientôt à échéance.<br><br>
+Nous espérons que vous profitez pleinement de notre newsletter et que vous appréciez nos articles et contenus exclusifs. Nous tenions simplement à vous rappeler que votre souscription est arrivée à échéance.<br><br>
 
 Ne manquez pas l'opportunité de continuer à recevoir nos informations pertinentes, nos conseils et nos mises à jour régulières dans votre boîte de réception. Pour renouveler votre abonnement, il vous suffit de cliquer sur le lien ci-dessous et de suivre les instructions simples. <br><br>
 
-<a href="https://bit.ly/3Uii7nz/pricing">Renouvelez</a>
+<a href="https://bit.ly/48OGVrH">Renouvelez</a>
 <br><br>
 Nous tenons à remercier tous nos membres pour leur soutien continu. Votre engagement est essentiel pour nous permettre de continuer à produire du contenu de qualité et à vous offrir une expérience enrichissante.
 <br>
