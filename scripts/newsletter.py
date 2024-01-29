@@ -12,7 +12,6 @@ gmail_pwd = os.environ.get('GMAIL_PWD')
 email = EmailMessage()
 email['From'] = gmail_adress
 
-
 all_profiles = Profile.objects.all()
 
 def send(recipient_email,content,subject):
@@ -53,31 +52,31 @@ def newsletter():
     #sending free content 
             if not p.sub:
                 
-                if 'coaching' in p.sub_topic  and p.sent_free_emails<=len(coaching_free_content):
+                if 'coaching' in p.sub_topic  and p.sent_free_emails<len(coaching_free_content):
                     send(p.sub_email,coaching_free_content[i],c_subject)
 
-                if ('recette' in p.sub_topic) and p.sent_free_emails<=len(recipes_free_content):
+                if ('recette' in p.sub_topic) and p.sent_free_emails<len(recipes_free_content):
                     send(p.sub_email,recipes_free_content[i],r_subject)
 
-                if ('ecommerce' in p.sub_topic) and p.sent_free_emails<=len(ecommerce_free_content) :
+                if ('ecommerce' in p.sub_topic) and p.sent_free_emails<len(ecommerce_free_content) :
                     send(p.sub_email,ecommerce_free_content[i],e_subject)
 
-                if ('divertissement' in p.sub_topic) and p.sent_free_emails<=len(entertainment_free_content) :
+                if ('divertissement' in p.sub_topic) and p.sent_free_emails<len(entertainment_free_content) :
                     send(p.sub_email,entertainment_free_content[i],d_subject)
                 p.sent_free_emails += 1
 
     #sending premium content
             else:
-                if ('recette' in p.sub_topic) and p.sent_prem_emails<=len(recipes_prem_content):
+                if ('recette' in p.sub_topic) and p.sent_prem_emails<len(recipes_prem_content):
                     send(p.sub_email,recipes_prem_content[j],r_subject)
                      
-                if ('coaching' in p.sub_topic) and p.sent_prem_emails<=len(coaching_prem_content):
+                if ('coaching' in p.sub_topic) and p.sent_prem_emails<len(coaching_prem_content):
                     send(p.sub_email,coaching_prem_content[j],c_subject)
                 
-                if ('ecommerce' in p.sub_topic) and p.sent_prem_emails<=len(ecommerce_prem_content):
+                if ('ecommerce' in p.sub_topic) and p.sent_prem_emails<len(ecommerce_prem_content):
                     send(p.sub_email,ecommerce_prem_content[j],e_subject)
                     
-                if ('divertissement' in p.sub_topic) and p.sent_prem_emails<=len(entertainment_prem_content):
+                if ('divertissement' in p.sub_topic) and p.sent_prem_emails<len(entertainment_prem_content):
                     send(p.sub_email,entertainment_prem_content[j],d_subject)                
                     
                 p.sent_prem_emails += 1 
@@ -86,7 +85,7 @@ def newsletter():
             p.save() 
 
         else:
-            send(p.sub_email,follow_up_content,'Votre Souscription')
+            send(p.sub_email,follow_up_content[0],'Votre Souscription')
 
 
 def run():
