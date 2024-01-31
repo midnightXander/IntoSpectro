@@ -13,6 +13,7 @@ from email.message import EmailMessage
 gmail_adress = os.environ.get('GMAIL_ADRESS')
 gmail_pwd = os.environ.get('GMAIL_PWD')
 
+
 def send_welcome_email(topic,recipient_email):
     email = EmailMessage()
     email["Subject"] = "Bienvenue dans intro spectro newsletter"
@@ -49,6 +50,44 @@ Bien cordialement,
         del email["Subject"]
 
 topics = [' recette', ' coaching', ' divertissement', ' ecommerce']
+
+def send_subscribed_email(recipient_email,end_date):
+    email = EmailMessage()
+    email["Subject"] = "Felicitation pour votre souscription"
+    email["From"] = gmail_adress
+    email.add_alternative(f"""\
+    <html>
+<head></head>
+<h3>Vous venez de souscrire a l'offre premium<h3>
+<p><h4>Cher abonné</h4>,
+
+Nous sommes ravis de vous annoncer que vous venez de souscrire à notre offre premium ! Cela signifie que vous aurez accès à un contenu exclusif, des avantages spécialisés et une expérience encore plus enrichissante.
+</p>
+<p>
+Dorénavant, vous recevrez des newsletters premium qui vous fourniront des informations approfondies, des conseils d'experts et des ressources exclusives dans votre(vos) domaine(s) d'intérêt(s).
+</p>
+<p>
+Nous tenons à vous remercier pour votre confiance et votre engagement envers notre newsletter. Votre abonnement premium est une reconnaissance de la valeur que nous vous apportons et nous mettons tout en œuvre pour continuer à vous offrir des contenus de qualité supérieure.
+</p>
+<p>
+Votre souscription prendra fin le {end_date}
+</p>
+<br>
+Cordialement,<br>
+L'équipe de la newsletter
+</html>
+""",subtype="html")
+
+    with smtplib.SMTP_SSL("smtp.gmail.com",465,context=ssl.create_default_context()) as smtp_server:
+        smtp_server.login(gmail_adress,gmail_pwd)
+        email["To"] = recipient_email
+
+        smtp_server.send_message(email)
+        del email["To"]
+        del email["From"]
+        del email["Subject"]
+
+
 def get_end_date(profile,y=0,m=1):
         end = profile.sub_start_date.month
         kwargs = {}
@@ -162,6 +201,7 @@ def payment(request,email,sub_id):
             profile.sub_start_date = datetime.now()
             profile.sub_end_date = get_end_date(profile,y=0,m=months)
             profile.save() 
+        send_subscribed_email(profile.sub_email,profile.sub_end_date)    
             
     subscription_id = sub_id
     context = {'sub_id':subscription_id,'profile':profile}    
