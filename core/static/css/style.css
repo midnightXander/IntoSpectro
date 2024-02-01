@@ -111,10 +111,12 @@ button:hover{
         height: 2000px;
     }
     .price-container{
-        grid-template-columns: 1fr;
+        grid-template-columns:1fr; 
     }
     .price-container div{
         grid-column: 1/3;
+        width: 100%;
+        min-width: 300px; 
     }
     footer{
         margin-top: 7rem;
@@ -126,6 +128,11 @@ button:hover{
 @media(width<500px){
     .price-container {
         font-size: 12pt;
+    }
+}
+@media(width<=400px){
+    .price-container{
+        margin-left: 2rem; 
     }
 }
 .icon{
