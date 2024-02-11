@@ -112,7 +112,7 @@ def index(request):
         messages.info(request,'Votre inscription a été un succès')
         send_welcome_email(topic,email)
         
-    return render(request,"core/index.html")
+    return render(request,"core/index.html",{'date':datetime.now()})
 
 def pricing(request):
     if request.method == "POST":
@@ -206,6 +206,10 @@ def payment(request,email,sub_id):
     subscription_id = sub_id
     context = {'sub_id':subscription_id,'profile':profile}    
     return render(request,"core/payment.html",context)
+
+
+def test_pay(request):
+    return render(request,"core/test_pay.html")
 
 #def paid(request):
     #take the data from payment.html and change sub to True for the user once the payment is successful

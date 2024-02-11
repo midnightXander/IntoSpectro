@@ -2,6 +2,15 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-K33Z6HNN');</script>
+    <!-- End Google Tag Manager -->
+
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1" >
         <meta name="description" content="Into Spectro premium newsletter">
@@ -234,6 +243,12 @@ ul{
 <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </head>
     <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K33Z6HNN"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+
         <nav>
             <a href="{% url 'core:index' %}">
                 <!-- <img width="130px" height="80px" href="{% static 'img/1.png' %}"> -->
@@ -244,7 +259,7 @@ ul{
        {% block content %}
        {% endblock content %}
         <footer>
-        <a href="{% url 'core:index' %}">&copy; Into Spectro-2024 </a>
+        <a href="{% url 'core:index' %}">&copy; Into Spectro-{{date.year}}</a>
        </footer> 
         
 
