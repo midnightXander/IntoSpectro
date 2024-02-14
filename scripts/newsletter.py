@@ -9,8 +9,6 @@ from core.models import  Profile
 gmail_adress = os.environ.get('GMAIL_ADRESS')
 gmail_pwd = os.environ.get('GMAIL_PWD')
 
-#gmail_adress = 'intospectro.newsletter@gmail.com'
-
 
 email = EmailMessage()
 email['From'] = gmail_adress

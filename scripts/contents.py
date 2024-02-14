@@ -3055,7 +3055,7 @@ ou tard donc autant commencer dès maintenant !
 
     ]
 
-# print("div_free:",len(entertainment_free_content))
-# print("rec_free:",len(recipes_free_content))
-# print("ecomm_free:",len(ecommerce_free_content))
-# print("coach_free:",len(coaching_free_content))
+print("div_free:",len(entertainment_free_content))
+print("rec_free:",len(recipes_free_content))
+print("ecomm_free:",len(ecommerce_free_content))
+print("coach_free:",len(coaching_free_content))
