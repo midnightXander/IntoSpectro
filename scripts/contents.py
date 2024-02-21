@@ -18,7 +18,7 @@ N'hésitez pas à nous contacter si vous avez des questions ou des préoccupatio
 Merci encore pour votre fidélité. Nous espérons vous compter parmi nos abonnés pour une autre année passionnante !
 <br><br><br>
 Cordialement,<br>
-L'équipe de la newsletter.
+L'équipe Intospectro.
     </html>""",
 
 ]
@@ -39,7 +39,7 @@ Nous tenons à vous remercier pour votre confiance et votre engagement envers no
 </p>
 <br>
 Cordialement,<br>
-L'équipe de la newsletter
+L'équipe Intospectro
 </html>
 """
 ]
@@ -100,6 +100,7 @@ L’enfant reprend pour dire :
 
     <p></p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -134,6 +135,7 @@ Celui d’Abobo :
 « notre bière qui est au frais ; que la SOLIBRA soit agrandie ; que ton prix diminue ; pardonne-nous nos dahico comme nous pardonnons aussi à ceux qui boivent lasucrerie et ne nous soumet pas aux migraines mais délivres-nous du gbêlêcar c’est à cause de toi qu’il y auramaquis, bars et cabarets pour dessiècles et des siècles ».
     </p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -157,6 +159,7 @@ Celui d’Abobo :
      Comment appelle-t-on un dinosaure pédé ? - Un tripotanus.
     </p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -208,6 +211,7 @@ Le maître, tout furieux, le coupe net :
 
     </p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -242,6 +246,7 @@ Le maître, tout furieux, le coupe net :
 
     </p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -287,6 +292,7 @@ Le maître, tout furieux, le coupe net :
 
     </p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -346,6 +352,7 @@ Le mari répond :
 
     </p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -373,6 +380,7 @@ Le mari répond :
     </p>
     <p></p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -431,6 +439,7 @@ Le mari répond :
 .
     </p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -444,6 +453,7 @@ Le mari répond :
     <p></p>
     <p></p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -457,6 +467,7 @@ Le mari répond :
     <p></p>
     <p></p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -470,6 +481,7 @@ Le mari répond :
     <p></p>
     <p></p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -483,6 +495,7 @@ Le mari répond :
     <p></p>
     <p></p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -496,6 +509,7 @@ Le mari répond :
     <p></p>
     <p></p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -509,6 +523,7 @@ Le mari répond :
     <p></p>
     <p></p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -522,6 +537,7 @@ Le mari répond :
     <p></p>
     <p></p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -535,6 +551,7 @@ Le mari répond :
     <p></p>
     <p></p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -544,6 +561,7 @@ Le mari répond :
     <h3></h3>
     <p></p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -553,6 +571,7 @@ Le mari répond :
     <h3></h3>
     <p></p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """
 
@@ -578,6 +597,7 @@ entertainment_free_content = [
 Devinez la suite.
     </p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
 
@@ -601,6 +621,7 @@ Devinez la suite.
     
 
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
 
@@ -617,6 +638,7 @@ Devinez la suite.
     </p>
 
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
 
@@ -636,6 +658,7 @@ Devinez la suite.
     </p>
     
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
 
@@ -655,6 +678,7 @@ Devinez la suite.
     </p>
     
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
 
@@ -673,6 +697,7 @@ Devinez la suite.
     C'est un Belge qui pousse sa Mercedes toute neuve sur l'autoroute. Un gendarme s'arrête et lui demande quelle est la panne. "Non, elle n'est pas en panne", répond le Belge, "elle est neuve, mais le garagiste m'a dit, pendant le rodage, vous roulez à 50 km/h en ville et vous lapoussez un peu sur l'autoroute. Alors c'est ce que je fais !!!"
     </p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
 
@@ -719,6 +744,7 @@ Mais, entre nous, est-ce que petit Digbeu amenti ?
 
     </p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
 
@@ -738,6 +764,7 @@ Mais, entre nous, est-ce que petit Digbeu amenti ?
     </p>
     
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
      f"""
@@ -759,6 +786,7 @@ Réponse des parents :<br>
 
 
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
 
@@ -777,6 +805,7 @@ Réponse des parents :<br>
 
 
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
 
@@ -799,6 +828,7 @@ Pendant qu'elle se baladait dans la rue, une belle jeune femme se rend compte qu
 
 
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
 
@@ -815,6 +845,7 @@ Pendant qu'elle se baladait dans la rue, une belle jeune femme se rend compte qu
     </p>
 
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
      
@@ -822,16 +853,7 @@ Pendant qu'elle se baladait dans la rue, une belle jeune femme se rend compte qu
 ]
 
 ecommerce_prem_content = [
-    
-    f"""
-    <html>
-    <head></head>
-    <h3></h3>
-    <p></p>
-    <em>Intospectro Newsletter</em>
-    </html>
-    """,
-    
+     
     f"""
     <html>
     <head></head>
@@ -863,6 +885,7 @@ En suivant ces conseils, vous pourrez établir de bonnes relations avec vos clie
 </p>
 
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
 
@@ -890,6 +913,7 @@ En suivant ces conseils, vous pourrez établir de bonnes relations avec vos clie
 
 Gardez à l'esprit que le fait de rester à jour est un processus continu. Continuez à explorer de nouvelles sources d'informations et à rechercher des opportunités d'apprentissage pour maintenir vos connaissances et vos compétences à jour.</p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -919,6 +943,7 @@ Il est important d'adapter ces indicateurs à votre entreprise et à vos objecti
     </p>
     
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -931,6 +956,7 @@ Il est important d'adapter ces indicateurs à votre entreprise et à vos objecti
     Être persévérant implique de faire preuve de détermination, de persistance et de résilience face aux difficultés et aux obstacles. Cela signifie ne pas abandonner lorsque les choses deviennent difficiles, mais plutôt continuer à travailler vers ses objectifs malgré les revers ou les échecs. Être persévérant implique également de rester motivé et de maintenir une mentalité positive, même lorsque les résultats ne sont pas immédiats. Cela demande de la patience et de l'endurance, mais cela peut conduire à des réalisations significatives et au succès à long terme.
     </p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -959,110 +985,19 @@ Il est important d'adapter ces indicateurs à votre entreprise et à vos objecti
 En suivant ces conseils, vous pourrez soigner votre image en ligne et renforcer votre réputation professionnelle.
     </p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
+    
+    
     
     f"""
     <html>
     <head></head>
-    <h3>Le Shawarma fait maison:</h3>
-    <p>
-    Ingrédients :
-- 500g de viande (poulet, agneau, boeuf)
-- 4 cuillères à soupe de yaourt nature
-- 2 cuillères à soupe d'huile d'olive
-- 2 cuillères à soupe de jus de citron
-- 4 gousses d'ail écrasées
-- 1 cuillère à café de cumin moulu
-- 1 cuillère à café de paprika
-- 1 cuillère à café de coriandre moulue
-- 1 cuillère à café de curry en poudre
-- Sel et poivre au goût
-- Pain pita ou tortilla
-- Légumes (tomates, concombres, oignons, salade) pour garnir
-
-Instructions :
-1. Coupez la viande en fines lamelles.
-2. Dans un bol, mélangez le yaourt, l'huile d'olive, le jus de citron, l'ail écrasé, le cumin, le paprika, la coriandre, le curry, le sel et le poivre.
-3. Ajoutez la viande dans le mélange de marinade et mélangez pour bien enrober la viande. Laissez mariner au réfrigérateur pendant au moins 1 heure (plus la viande marine, meilleur sera le goût).
-4. Préchauffez une poêle ou un grill à feu moyen-élevé.
-5. Faites cuire la viande marinée dans la poêle ou sur le grill pendant environ 5-7 minutes de chaque côté, ou jusqu'à ce qu'elle soit bien cuite.
-6. Pendant ce temps, faites chauffer les pains pita ou les tortillas selon les instructions du paquet.
-7. Garnissez les pains chauds avec la viande grillée et ajoutez les légumes de votre choix (tomates, concombres, oignons, salade).
-8. Servez chaud et dégustez votre shawarma fait maison !
-
-Vous pouvez également ajouter des sauces comme de l'houmous, de la sauce au yogourt ou du tahini pour plus de saveurs. Bon appétit !
-    </p>
+    <h3></h3>
+    <p></p>
     <em>Intospectro Newsletter</em>
-    </html>
-    """,
-    
-    f"""
-    <html>
-    <head></head>
-    <h3>la sauce gumbo</h3>
-    <p>
-    La sauce gombo, également connue sous le nom de "gumbo", est une recette originaire d'Afrique de l'Ouest, plus précisément de pays comme le Nigeria, le Ghana et le Sénégal. Elle est préparée à base de gombos, des légumes verts ressemblant à des doigts de dame, ainsi que d'autres ingrédients tels que de la tomate, de l'oignon, de l'ail, des épices et de la viande ou des crevettes.
-
-Pour préparer la sauce gombo, voici une recette de base:
-
-Ingrédients:
-- 500g de gombos frais
-- 2 tomates
-- 1 oignon
-- 2 gousses d'ail
-- 250g de viande ou de crevettes
-- Huile végétale
-- Sel, poivre, épices au goût
-
-Instructions:
-1. Laver les gombos et couper les extrémités. Enlever les petites pointes avec un couteau.
-2. Couper les gombos en rondelles.
-3. Dans une casserole, faire chauffer un peu d'huile végétale. Ajouter l'oignon haché et l'ail émincé. Faire revenir jusqu'à ce qu'ils deviennent translucides.
-4. Ajouter la viande ou les crevettes dans la casserole et faire cuire jusqu'à ce qu'ils soient bien dorés.
-5. Ajouter les rondelles de gombo dans la casserole, ainsi que les tomates coupées en dés. Remuer délicatement.
-6. Assaisonner avec du sel, du poivre et les épices de votre choix. Couvrir la casserole et laisser mijoter à feu doux pendant environ 20 minutes, ou jusqu'à ce que les gombos soient tendres.
-7. Si la sauce est trop épaisse, vous pouvez ajouter un peu d'eau pour l'alléger. Si elle est trop liquide, laisser cuire à découvert pour réduire et épaissir la sauce.
-8. Servir la sauce gombo chaude accompagnée de riz, de couscous ou de pain.
-
-Notez que cette recette peut être adaptée en fonction de vos préférences personnelles et des ingrédients disponibles. Vous pouvez ajouter d'autres légumes, des épices supplémentaires ou ajuster les quantités selon votre goût.
-
-Bon appétit !
-    </p>
-    <em>Intospectro Newsletter</em>
-    </html>
-    """,
-    
-    f"""
-    <html>
-    <head></head>
-    <h3>Les Cookies</h3>
-    <p>
-    Voici une recette simple pour faire des cookies :
-
-Ingrédients :
-- 250g de farine
-- 150g de beurre ramolli
-- 150g de sucre
-- 1 œuf
-- 1 cuillère à café d'extrait de vanille
-- 1/2 cuillère à café de levure chimique
-- 100g de pépites de chocolat (ou d'autres ingrédients de votre choix : raisins secs, noix, etc.)
-
-Instructions :
-1. Préchauffez votre four à 180°C.
-2. Dans un bol, mélangez le beurre ramolli et le sucre jusqu'à obtenir une consistance crémeuse.
-3. Ajoutez l'œuf et l'extrait de vanille, et mélangez bien.
-4. Dans un autre bol, mélangez la farine et la levure chimique.
-5. Ajoutez progressivement le mélange de farine au mélange de beurre et de sucre, jusqu'à l'obtention d'une pâte homogène.
-6. Incorporez les pépites de chocolat (ou d'autres ingrédients de votre choix) et mélangez bien.
-7. Formez des petites boules de pâte et placez-les sur une plaque de cuisson recouverte de papier sulfurisé, en les espaçant légèrement.
-8. Enfournez les cookies pendant environ 10-12 minutes, jusqu'à ce qu'ils soient dorés sur les bords.
-9. Laissez-les refroidir sur une grille avant de les déguster.
-
-Vous pouvez personnaliser cette recette en ajoutant des noix, des fruits secs ou d'autres ingrédients selon vos préférences. Bonne dégustation !
-    </p>
-    <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -1072,6 +1007,7 @@ Vous pouvez personnaliser cette recette en ajoutant des noix, des fruits secs ou
     <h3></h3>
     <p></p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -1081,6 +1017,7 @@ Vous pouvez personnaliser cette recette en ajoutant des noix, des fruits secs ou
     <h3></h3>
     <p></p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -1090,6 +1027,7 @@ Vous pouvez personnaliser cette recette en ajoutant des noix, des fruits secs ou
     <h3></h3>
     <p></p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -1099,6 +1037,7 @@ Vous pouvez personnaliser cette recette en ajoutant des noix, des fruits secs ou
     <h3></h3>
     <p></p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -1108,6 +1047,7 @@ Vous pouvez personnaliser cette recette en ajoutant des noix, des fruits secs ou
     <h3></h3>
     <p></p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -1117,6 +1057,7 @@ Vous pouvez personnaliser cette recette en ajoutant des noix, des fruits secs ou
     <h3></h3>
     <p></p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -1126,6 +1067,7 @@ Vous pouvez personnaliser cette recette en ajoutant des noix, des fruits secs ou
     <h3></h3>
     <p></p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -1135,6 +1077,7 @@ Vous pouvez personnaliser cette recette en ajoutant des noix, des fruits secs ou
     <h3></h3>
     <p></p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -1144,6 +1087,7 @@ Vous pouvez personnaliser cette recette en ajoutant des noix, des fruits secs ou
     <h3></h3>
     <p></p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -1153,6 +1097,7 @@ Vous pouvez personnaliser cette recette en ajoutant des noix, des fruits secs ou
     <h3></h3>
     <p></p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -1162,6 +1107,7 @@ Vous pouvez personnaliser cette recette en ajoutant des noix, des fruits secs ou
     <h3></h3>
     <p></p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -1171,6 +1117,16 @@ Vous pouvez personnaliser cette recette en ajoutant des noix, des fruits secs ou
     <h3></h3>
     <p></p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
+    </html>
+    """,
+    f"""
+    <html>
+    <head></head>
+    <h3></h3>
+    <p></p>
+    <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -1180,32 +1136,7 @@ Vous pouvez personnaliser cette recette en ajoutant des noix, des fruits secs ou
     <h3></h3>
     <p></p>
     <em>Intospectro Newsletter</em>
-    </html>
-    """,
-    
-    f"""
-    <html>
-    <head></head>
-    <h3></h3>
-    <p></p>
-    <em>Intospectro Newsletter</em>
-    </html>
-    """,
-    f"""
-    <html>
-    <head></head>
-    <h3></h3>
-    <p></p>
-    <em>Intospectro Newsletter</em>
-    </html>
-    """,
-    
-    f"""
-    <html>
-    <head></head>
-    <h3></h3>
-    <p></p>
-    <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -1229,6 +1160,7 @@ De plus, la vente en ligne permet aux entreprises de réduire les coûts liés �
 Il ya plusieurs point a prendre en compte avant de commencer a vendre en ligne  et on abordera le premier point  prochainement alors restez a l'affut. 
   </p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
 
@@ -1252,6 +1184,7 @@ Il ya plusieurs point a prendre en compte avant de commencer a vendre en ligne  
    
 Ce ne sont que quelques exemples parmi tant d'autres. L'important est de trouver une niche où il y a une demande suffisante, mais aussi une concurrence raisonnable.<br></p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
 
@@ -1276,6 +1209,7 @@ Ce ne sont que quelques exemples parmi tant d'autres. L'important est de trouver
 
 En résumé, choisir une niche pour votre entreprise en ligne est une décision  importante. Prenez le temps de bien réfléchir à vos intérêts personnels, à la  demande du marché, à la concurrence, au public cible et au potentiel de croissance pour trouver la niche qui correspond le mieux à vos objectifs et à vos compétences.</p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
 
@@ -1303,6 +1237,7 @@ En résumé, choisir une niche pour votre entreprise en ligne est une décision 
 <br><br>
 N'oubliez pas que l'étude de marché est un processus itératif, et il peut être judicieux de mettre à jour régulièrement vos recherches pour rester au fait des évolutions du marché.</p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
 
@@ -1330,6 +1265,7 @@ N'oubliez pas que l'étude de marché est un processus itératif, et il peut êt
 En suivant ces étapes, vous pourrez élaborer une proposition de valeur claire et captivante qui aidera à attirer et à convaincre votre public cible.
     </p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
 
@@ -1340,7 +1276,7 @@ En suivant ces étapes, vous pourrez élaborer une proposition de valeur claire 
     <h3>4. Établissez une solide présence en ligne :</h3>
     <p> Créez un site web professionnel et attrayant pour présenter vos produits  ou services. Utilisez les réseaux sociaux pour développer votre image de marque et interagir avec votre public.
 </p>
-<p>En ce qui concerne la création d'un site web, vous n'avez pas besoin de compétences technique. Vous pouvez acheter et personaliser des themes shopify,wordpress,WIX etc ou alors faire appel a une agence spécialisé pour un site web plus UNIQUE et a votre image. Nous recommandons RSTI Power(contact: emmasipi19@rstipower.com)</p>
+<p>En ce qui concerne la création d'un site web, vous n'avez pas besoin de compétences technique. Vous pouvez acheter et personaliser des themes shopify,wordpress,WIX etc ou alors faire appel a une agence spécialisé pour un site web plus UNIQUE et a votre image. Nous recommandons l'agence<a href="mailto:emmasipi19@rstipower.com">RSTI Power</a></p>
 <p>Pour établir une solide présence en ligne, voici quelques étapes à suivre :
 
 1. Créez un site web attrayant et convivial :  Investissez dans un site web bien conçu, convivial et optimisé pour les moteurs de recherche. Assurez-vous que votre site présente clairement vos produits ou services, vos coordonnées et les options d'achat ou de contact.<br><br>
@@ -1360,6 +1296,7 @@ En suivant ces étapes, vous pourrez élaborer une proposition de valeur claire 
 En mettant en œuvre ces conseils, vous pourrez établir une solide présence en ligne et atteindre votre public cible de manière efficace.<br><br>
 </p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
 
@@ -1387,6 +1324,7 @@ En mettant en œuvre ces conseils, vous pourrez établir une solide présence en
 <br><br>
 N'oubliez pas que la valeur ajoutée ne se limite pas seulement à ce que vous vendez, mais aussi à la manière dont vous interagissez avec vos clients et dont vous gérez votre entreprise. En fournissant une expérience client positive et en restant attentif à leurs besoins, vous pourrez vous démarquer de la concurrence et fidéliser votre clientèle.</p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
 
@@ -1418,6 +1356,7 @@ N'oubliez pas que la valeur ajoutée ne se limite pas seulement à ce que vous v
 Gardez à l'esprit que l'optimisation pour les moteurs de recherche est un processus continu et qu'il est important de rester informé des dernières tendances et des meilleures pratiques en matière de référencement.
 </p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
 
@@ -1446,6 +1385,7 @@ richesse de votre catalogue de produits, il vous appartient de la choisir… et 
 <br><br>
 </p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
 
@@ -1473,6 +1413,7 @@ fourniront une source d’inspiration précieuse
 <br><br>
 </p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -1516,6 +1457,7 @@ mais pour donner envie aux visiteurs de profiter de votre offre, de consulter vo
 et au final d’acheter !<br>
 </p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
 
@@ -1551,6 +1493,167 @@ montrent des photos, du texte très détaillé, des caractéristiques techniques
 conseils d’utilisation, des produits équivalents, des avis consommateurs.
 </em></b>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
+    </html>
+    """,
+
+    f"""
+    <html>
+    <head></head>
+    <h3>DE BELLES PHOTOS ET EN GRAND NOMBRE</h3>
+    <p><b>Comme le montrent les études, de belles et grandes photos augmentent de plus de 45 % le chiffre 
+d’affaires des sites e-commerce.</b>
+<br>Ne vous contentez pas de photos médiocres, avec le sentiment que
+cela suffira pour commencer, ou que les clients sauront faire la part des choses, eh bien non ! mettez 
+en place dès que possible les moyens nécessaires pour réaliser de belles photos
+    </p>
+    <p>
+    N’oubliez pas que les internautes consultent régulièrement de nombreux sites e-commerce très 
+reconnus et que leur degré d’exigence s’en trouve augmenté. Pour réaliser des photos de qualité, le 
+choix est vaste… en fonction de vos moyens, vous pouvez faire appel à un studio, à un professionnel
+indépendant, ou à un stagiaire qui adore les photos, seul le résultat compte !
+    </p>
+    
+    <p>
+    dès que le visiteur consultera votre site, il se rendra compte grâce à la qualité et la richesse des 
+photos (au moins trois par article) que vos articles sont de qualité, que vous  aimez vos produits et que 
+vous faites l’effort de le séduire, et le résultat sera au rendez-vous
+    </p>
+    <p>
+    <em><b>Nos conseils</b> : Pour évaluer la qualité des photos actuelles de votre site et si leur nombre est suffisant,
+c’est facile ! Interrogez vos amis, vos connaissances, quelques clients actuels… Ensuite vous pourrez 
+trouver une organisation concrète pour progresser (un stagiaire, un collaborateur qui connaît la photo, 
+une société spécialisée…).</em>
+    </p>
+    <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
+    </html>
+    """,
+
+    f"""
+    <html>
+    <head></head>
+    <h3>DES NOUVEAUTÉS EN PAGE D’ACCUEIL
+ET MISES EN VALEUR DANS LE SITE</h3>
+    <p>
+    <b>Dans le e-commerce tout est affaire de séduction, d’attractivité de la bonne nouvelle</b> (produits, prix,
+beauté, services), de qualité des informations fournies (contenu, conseils), de qualité des photos, d’une 
+bonne mise en avant des produits. Et dans cette panoplie, ne l’oubliez pas, les nouveautés qui font 
+intégralement partie de la séduction. L’annonce régulière de nouveaux produits ou d’offres tarifaires 
+spécifiques constitue un facteur clef dans la performance de votre site e-commerce.
+    </p>
+    <p>
+    Que penseriez-vous d’un magasin physique qui n’offrirait pas de nouveautés, dans lequel tous les 
+articles sont visiblement anciens, qui ne fait pas l’effort d’enrichir son offre de produits, de services et 
+de promotions régulières ? Vous seriez déçu ! Il en est de même dans le monde formidable du 
+e-commerce
+    </p>
+    <p>
+    <b>Pour organiser efficacement ces nouveautés, il est important de les préparer et de les planifier à 
+l’avance</b> (si possible chaque mois !). Vous pouvez ainsi préparer l’annonce de nouveaux produits, 
+réfléchir à des offres tarifaires avantageuses sur des périodes données et pour des produits donnés,
+présenter de nouveaux services de fidélité ou de livraison par exemple, proposer des cadeaux 
+privilégiés, organiser des concours. Ces nouveautés sont souvent liées à des dates spécifiques de 
+calendrier, Saint Valentin, départ en vacances, rentrée des classes, sortie de collections…<br><br>
+
+<em>
+Une fois cette planification mise en place, vous avez les cartes en mains pour réussir la mise en 
+ligne régulière de nouveautés sur votre site et ainsi séduire vos clients et  prospects en leur 
+donnant envie de venir vous rendre visite régulièrement !
+</em>
+
+
+    </p>
+    <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
+    </html>
+    """,
+
+    f"""
+    <html>
+    <head></head>
+    <h3>LA RÉASSURANCE EST MISE EN AVANT
+EN PAGE D’ACCUEIL ET DANS TOUTES LES PAGES</h3>
+   
+    <p>
+   <b>Quand un client ou prospect arrive sur votre site, comme ensuite à toutes les étapes de sa 
+navigation, il a besoin d’être rassuré</b> d’être certain que vous offrez un produit ou un service de qualité.
+Une belle page d’accueil, un beau site… ne suffisent pas, vous devez absolument garantir aux clients 
+que votre produit sera livré dans les délais, qu’en cas de problème il pourra vous contacter, que son 
+produit lui donnera entière satisfaction. 
+    </p>
+    <p>
+    <b>Les moyens de réassurance sont nombreux :</b> vos années d’expérience dans le métier, les marques 
+leaders que vous vendez, la spécificité technique de vos produits, la livraison par so-colissimo avec 
+délai garanti, téléphone du service client, témoignages clients, pourcentage de clients satisfaits, 
+origine des produits, ancienneté du site, nombre d’années d’expérience dans l’activité. 
+    </p>
+    <p>
+    <b>On peut ajouter dans certains cas la garantie «satisfait ou remboursé»</b>, le logo des marques de
+produits vendus, l’appartenance à une organisation professionnelle, le logo du mode de livraison, du
+mode de paiement Paypal.
+    <br><br><em>Sans réassurance visible sur toutes les pages, un client même intéressé sera inquiet et hésitera.
+Il n’aura pas nécessairement confiance et au moment de payer risque fort d’abandonner son
+achat</em>
+    </p>
+    <p>
+    <em>
+    <b>Nos conseils :</b> Il vous faut un minimum de trois éléments de réassurance, et si vous en affichez cinq
+c’est encore mieux ! A vous de les choisir parmi tout l’éventail des possibilités ! Au besoin, téléphonez
+dès maintenant à un client pour commencer une série de témoignages clients toujours très efficaces
+pour augmenter les ventes.
+    </em>
+    </p>
+    
+    <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
+    </html>
+    """,
+
+    f"""
+    <html>
+    <head></head>
+    <h3>N ACCÈS RAPIDE AUX PRODUITS
+    QUI INTÉRESSENT CHAQUE VISITEUR</h3>
+    <p>
+    
+    </p>
+    <p>
+    <b>Quand un client parvient sur votre site, il recherche en général un article spécifique ou souhaite</b> 
+trouver une suggestion au sein d’une gamme d’articles définie. S’il ne trouve pas rapidement une 
+réponse à sa recherche, il va immédiatement se décourager et quitter votre site
+    </p>
+    <p>
+    <b>Pour satisfaire vos clients en termes de navigation, il convient de se mettre à leur place...</b> 
+Interrogez-vous et répondez (par écrit !) aux questions que vos clients vont naturellement se poser 
+dans leurs recherches de produits. Ils vont rechercher des produits par type d’usage (tenue de sport, 
+de soirée, de divertissement, de randonnée...), par nature (imperméable, léger...), par matière (soie, cuir,
+métal, bois...), par marque (Nike, Dior...), par tranche d’âge, par prix, par nouveauté …
+    </p>
+    <p>
+    Même si des sites comme Amazon atteignent ou dépassent couramment six modes de recherche, il 
+existe en général trois types de mode de recherche possible (exemple : usage, matière, technique...) à 
+l’intérieur desquels vous classerez vos catégories d’articles. L’accès aux articles doit absolument être 
+défini de manière précise et efficace. Une fiche article aussi belle soit-elle ne vous sera d’aucune utilité 
+si les familles et catégories d’articles ne sont pas bien visibles.
+    </p>
+    <p>
+    <b>Le nombre de classements est multiple</b>, proposer plusieurs modes de recherche rend un grand
+service aux clients et augmentera beaucoup l’efficacité de votre site.
+    <br><br>
+    <em>
+    <b>Nos conseils :</b> Vous devez interroger quelques clients ou futurs clients sur leurs critères avec lesquels 
+ils vont vouloir retrouver des produits sur votre site. Sans aucun jugement, notez ces critères et 
+établissez une grille de recherche.<br><br>
+Une fois la grille de critères de recherche établie, il est facile de la mettre en œuvre très
+concrètement sur votre site en recherchant quelques articles, vous aurez alors un diagnostic objectif
+de vos performances dans ce domaine. Si elles sont insuffisantes, dépêchez-vous d’y porter remède,
+votre chiffre d’affaires en dépend
+    </em>
+    
+    </p>
+    <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -1584,6 +1687,7 @@ recipes_prem_content = [
 
 En suivant ces conseils et en étant attentif(ve) à la cuisson et aux saveurs, vous serez certain(e) de réussir votre ndolé et de ravir vos papilles ainsi que celles de vos convives. Bon appétit !</p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -1620,6 +1724,7 @@ Instructions :
 
 Vous pouvez également ajouter des légumes, du poulet ou d'autres ingrédients de votre choix pour personnaliser votre jollof rice. Bon appétit !</p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -1652,6 +1757,7 @@ Préparation :
 
 Vous pouvez également ajouter d'autres légumes de votre choix, comme des haricots verts ou des poivrons, pour varier les saveurs. Bon appétit !</p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -1689,6 +1795,7 @@ Préparation :
 
 Bonne dégustation !</p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -1732,6 +1839,7 @@ Préparation du Water Fufu :
 
 Bon appétit !</p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -1767,6 +1875,7 @@ Instructions :
 
 Note : N'hésitez pas à adapter cette recette en fonction de vos préférences et des ingrédients disponibles dans votre région.</p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -1802,6 +1911,7 @@ Instructions :
 Bon appétit !
     </p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -1837,6 +1947,41 @@ Instructions :
 
 Bon appétit !</p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
+    </html>
+    """,
+
+     f"""
+    <html>
+    <head></head>
+    <h3>Les Cookies</h3>
+    <p>
+    Voici une recette simple pour faire des cookies :
+
+Ingrédients :
+- 250g de farine
+- 150g de beurre ramolli
+- 150g de sucre
+- 1 œuf
+- 1 cuillère à café d'extrait de vanille
+- 1/2 cuillère à café de levure chimique
+- 100g de pépites de chocolat (ou d'autres ingrédients de votre choix : raisins secs, noix, etc.)
+
+Instructions :
+1. Préchauffez votre four à 180°C.
+2. Dans un bol, mélangez le beurre ramolli et le sucre jusqu'à obtenir une consistance crémeuse.
+3. Ajoutez l'œuf et l'extrait de vanille, et mélangez bien.
+4. Dans un autre bol, mélangez la farine et la levure chimique.
+5. Ajoutez progressivement le mélange de farine au mélange de beurre et de sucre, jusqu'à l'obtention d'une pâte homogène.
+6. Incorporez les pépites de chocolat (ou d'autres ingrédients de votre choix) et mélangez bien.
+7. Formez des petites boules de pâte et placez-les sur une plaque de cuisson recouverte de papier sulfurisé, en les espaçant légèrement.
+8. Enfournez les cookies pendant environ 10-12 minutes, jusqu'à ce qu'ils soient dorés sur les bords.
+9. Laissez-les refroidir sur une grille avant de les déguster.
+
+Vous pouvez personnaliser cette recette en ajoutant des noix, des fruits secs ou d'autres ingrédients selon vos préférences. Bonne dégustation !
+    </p>
+    <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -1846,6 +1991,7 @@ Bon appétit !</p>
     <h3></h3>
     <p></p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -1855,6 +2001,7 @@ Bon appétit !</p>
     <h3></h3>
     <p></p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -1864,6 +2011,7 @@ Bon appétit !</p>
     <h3></h3>
     <p></p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -1873,6 +2021,7 @@ Bon appétit !</p>
     <h3></h3>
     <p></p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -1882,6 +2031,7 @@ Bon appétit !</p>
     <h3></h3>
     <p></p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -1891,6 +2041,7 @@ Bon appétit !</p>
     <h3></h3>
     <p></p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """
 
@@ -1935,6 +2086,7 @@ Astuce : Vous pouvez ajouter des noix concassées ou d'autres fruits secs à la 
 
 Bon appétit !</p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
 
@@ -1973,6 +2125,7 @@ Instructions :<br>
 
 Le poulet Yassa est un plat délicieusement parfumé et savoureux, idéal pour être  partagé en famille ou entre amis lors d'un repas festif.<br></p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
     
@@ -2010,6 +2163,7 @@ Instructions :<br>
 
 Cette recette peut être adaptée en fonction de vos préférences. Vous pouvez  ajouter d'autres légumes comme des patates douces ou des courgettes, ou même  utiliser du poisson ou des fruits de mer à la place de la viande. N'hésitez pas à ajuster les quantités d'ingrédients en fonction du nombre de convives que vous  souhaitez régaler.</p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
 
@@ -2047,6 +2201,7 @@ Cette recette délicieuse et nourrissante est parfaite pour découvrir les saveu
 
 </p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
 
@@ -2084,6 +2239,7 @@ Instructions :<br>
 
 Voilà, vous avez maintenant une délicieuse recette de croissants faits maison, que vous pouvez préparer avec des ingrédients faciles à trouver en Afrique centrale. Profitez de vos délicieux croissants !</p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
 
@@ -2126,6 +2282,7 @@ Astuce : Vous pouvez ajouter des noix concassées ou d'autres fruits secs à la 
 
 Bon appétit !</p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
 
@@ -2165,6 +2322,7 @@ Instructions:<br>
 
 Votre délicieux gâteau fait maison est prêt à être dégusté ! Vous pouvez le servir tel quel ou le décorer selon vos envies avec du glaçage, des fruits frais ou du chocolat fondu. Bon appétit !</p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
 
@@ -2200,6 +2358,7 @@ Préparation :<br>
 
 Voilà, vous avez maintenant une délicieuse recette de lasagnes à réaliser avec des ingrédients que l'on peut trouver en Afrique centrale.<br> Bon appétit !</p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
 
@@ -2237,6 +2396,7 @@ Instructions :<br>
 
 Vous pouvez également ajouter des légumes, du poulet ou d'autres ingrédients de votre choix pour personnaliser votre jollof rice. Bon appétit !</p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
 
@@ -2273,8 +2433,254 @@ Préparation:
 
 Note : Le ndolé est un plat traditionnel camerounais et peut être préparé avec  différentes viandes (bœuf, poulet, poisson) ou même sans viande pour les versions végétariennes. Soyez créatifs dans votre préparation et ajustez les ingrédients selon vos goûts et préférences.<br> Bon appétit !</p>
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     </html>
     """,
+
+    f"""
+    <html>
+    <head></head>
+    <h3>Le Moambe congolais</h3>
+    <p>
+    également connu sous le nom de "Poulet Moambe", est un plat traditionnel congolais à base de poulet et d'une sauce très parfumée. Voici la recette pour préparer ce délicieux plat chez vous
+    </p>
+    <p>
+    Le Moambe congolais, également connu sous le nom de "Poulet Moambe", est un plat traditionnel congolais à base de poulet et d'une sauce très parfumée. Voici la recette pour préparer ce délicieux plat chez vous :
+
+<b>Ingrédients </b>:
+- 1 poulet (coupé en morceaux)<br>
+- 500g de feuilles de Roquette (Molokhia en arabe)<br>
+- 1 oignon (haché)<br>
+- 3 gousses d'ail (hachées)<br>
+- 2 cuillères à soupe d'huile végétale<br>
+- 2 cuillères à soupe de pâte d'arachide<br>
+- 2 cuillères à soupe de concentré de tomate<br>
+- 1 cube de bouillon de volaille<br>
+- 1 pincée de piment (facultatif)<br>
+- Sel et poivre selon goût<br><br>
+
+<b>Préparation :</b><br>
+1. Dans une grande casserole ou une marmite, faites chauffer l'huile végétale à feu moyen. Ajoutez l'oignon et l'ail hachés et faites-les revenir jusqu'à ce qu'ils soient dorés.<br>
+2. Ajoutez les morceaux de poulet dans la casserole et faites-les dorer de tous les côtés.<br>
+3. Ajoutez la pâte d'arachide et mélangez bien avec le poulet et les légumes.<br>
+4. Diluez le cube de bouillon de volaille dans un peu d'eau chaude, puis ajoutez-le dans la casserole.<br>
+5. Ajoutez le concentré de tomate, le piment, le sel et le poivre selon votre goût. Mélangez bien tous les ingrédients.<br>
+6. Ajoutez ensuite les feuilles de Roquette (Molokhia) dans la casserole. Mélangez bien pour que la sauce enrobe tous les ingrédients.<br>
+7. Couvrez la casserole et laissez mijoter à feu doux pendant environ 45 minutes à 1 heure, jusqu'à ce que le poulet soit tendre et que la sauce soit bien parfumée.<br>
+8. Servez le Moambe congolais avec du riz, du manioc ou des bananes plantains.
+    </p>
+    <p>
+    N'oubliez pas de vous abonner à la newsletter d'Intospectro pour découvrir d'autres délicieuses recettes africaines et recevoir des conseils culinaires exclusifs. Bon appétit !
+    </p>
+    <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
+    </html>
+    """,
+
+    f"""
+    <html>
+    <head></head>
+    <h3>Smoothie a la papaye</h3>
+    <p>
+    Ingrédients pour le smoothie à la papaye:<br>
+
+- 1 papaye mûre<br>
+- 1 banane<br>
+- 1/2 tasse de yaourt nature<br>
+- 1/4 de tasse de lait (lait d'amande, lait de coco ou lait ordinaire)<br>
+- 1 cuillère à soupe de miel (facultatif pour plus de douceur)<br>
+- Quelques glaçons<br>
+
+Instructions :<br>
+
+1. Coupez la papaye en deux, retirez les graines et enlevez la peau. Coupez la chair de la papaye en morceaux.<br>
+
+2. Épluchez la banane et coupez-la en rondelles.<br>
+
+3. Dans un mixeur, ajoutez la papaye en morceaux, la banane, le yaourt, le lait et le miel (si vous le souhaitez).<br>
+
+4. Mélangez tous les ingrédients à haute vitesse jusqu'à ce que le smoothie soit lisse et crémeux. Si vous préférez une consistance plus liquide, ajoutez un peu plus de lait.<br>
+
+5. Ajoutez quelques glaçons et mixez à nouveau pour refroidir le smoothie.
+<br>
+6. Versez le smoothie dans un verre et dégustez-le immédiatement<br>
+    </p>
+    <p>
+    Ce smoothie à la papaye est délicieusement rafraîchissant et plein de saveurs tropicales. Il est idéal pour le petit déjeuner, une collation ou même un dessert sain. N'hésitez pas à ajouter d'autres fruits ou à expérimenter avec des épices comme la cannelle ou le gingembre pour varier les saveurs.<br>
+    </p>
+    <p>
+    N'oubliez pas de vous abonner à la newsletter Intospectro pour recevoir d'autres délicieuses recettes et astuces pour une alimentation saine et équilibrée. Bon appétit !
+    </p>
+    <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
+    </html>
+    """,
+
+    f"""
+    <html>
+    <head></head>
+    <h3>Le Dambou</h3>
+    <p>
+    Dambou est un plat traditionnel africain, originaire de plusieurs pays d'Afrique de l'Ouest. C'est un mélange délicieux et épicé de viande et de légumes qui peut varier en fonction des régions et des préférences personnelles. Voici une recette simple pour préparer du dambou :
+    </p>
+    
+    <p>
+    Ingrédients :<br>
+- 500 g de viande de bœuf ou de poulet, coupée en morceaux<br>
+- 2 grosses aubergines, coupées en dés<br>
+- 2 carottes, coupées en rondelles<br>
+- 2 oignons, finement hachés<br>
+- 2 gousses d'ail, écrasées<br>
+- 2 cuillères à soupe de pâte d'arachide<br>
+- 2 cuillères à soupe d'huile de palme (ou d'huile végétale)<br>
+- 1 cube de bouillon de volaille<br>
+- Sel et poivre, selon votre goût<br>
+
+Instructions :<br>
+1. Dans une grande casserole, chauffez l'huile de palme (ou l'huile végétale) à feu moyen. Ajoutez les oignons et l'ail, et faites-les revenir jusqu'à ce qu'ils soient tendres et légèrement dorés.<br><br>
+
+2. Ajoutez la viande dans la casserole et faites-la cuire jusqu'à ce qu'elle soit bien dorée de tous les côtés.<br><br>
+
+3. Ajoutez les légumes (aubergines et carottes) dans la casserole, ainsi que le cube de bouillon de volaille émietté. Mélangez bien le tout.<br><br>
+
+4. Diluez la pâte d'arachide dans un peu d'eau et ajoutez-la dans la casserole. Assaisonnez avec du sel et du poivre selon votre goût.<br><br>
+
+5. Couvrez la casserole et laissez mijoter à feu doux pendant environ 30 minutes, ou jusqu'à ce que les légumes soient tendres et que la sauce ait épaissi.<br><br>
+
+6. Servez le dambou chaud avec du riz blanc ou du foufou, et dégustez ce délicieux plat africain.<br><br>
+
+N'hésitez pas à ajuster les quantités des ingrédients en fonction de vos préférences et du nombre de personnes que vous souhaitez servir. Bon appétit !
+    </p>
+    <p>
+    
+    </p>
+    <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
+    </html>
+    """,
+
+    f"""
+    <html>
+    <head></head>
+    <h3>Le mechoui sénégalais</h3>
+    <p>
+    Le mechoui sénégalais, également connu sous le nom de "mburu" est un plat traditionnellement préparé lors des grandes occasions et des célébrations au Sénégal. C'est un plat de viande rôti lentement sur des braises, ce qui lui donne une saveur et une tendreté uniques.
+    </p>
+    <p>
+    Ingrédients:<br>
+- 1 agneau entier (environ 15-20 kg)<br>
+- 5-6 citrons<br>
+- 5-6 gousses d'ail écrasées<br>
+- 2 cuillères à soupe de moutarde<br>
+- 2 cuillères à soupe de poivre noir moulu<br>
+- 2 cuillères à soupe de sel<br>
+- 2 cuillères à soupe de piment en poudre (facultatif)<br>
+- 2 cuillères à soupe de paprika<br>
+- 2 cuillères à soupe d'huile d'olive<br>
+
+Instructions:<br>
+1. Préparez la marinade en mélangeant le jus de citron, l'ail écrasé, la moutarde, le poivre noir, le sel, le piment en poudre (si vous aimez piquant), le paprika et l'huile d'olive dans un grand bol.
+<br><br>
+2. Badigeonnez généreusement l'agneau avec la marinade et laissez mariner pendant au moins 4 heures, idéalement toute la nuit.
+<br><br>
+3. Préparez votre barbecue à charbon de bois et assurez-vous d'avoir une source de chaleur indirecte, en plaçant les braises sur les côtés du barbecue.
+<br><br>
+4. Placez l'agneau sur la grille du barbecue avec la partie la plus grasse vers le haut. Fermez le couvercle et laissez cuire lentement pendant environ 4 à 6 heures, en retournant l'agneau toutes les heures pour une cuisson uniforme.
+<br><br>
+5. Pendant la cuisson, badigeonnez régulièrement l'agneau avec la marinade restante pour le garder bien juteux et savoureux.
+<br><br>
+6. Vérifiez la cuisson en insérant un thermomètre à viande dans la partie la plus épaisse de la cuisse de l'agneau. La température interne doit atteindre au moins 60-65°C pour une cuisson à point.
+<br><br>
+7. Une fois cuit, retirez l'agneau du barbecue et laissez-le reposer pendant environ 15 minutes avant de le découper et de le servir.
+<br><br>
+
+    </p>
+    <p>
+    Le mechoui sénégalais est souvent accompagné de riz, de légumes grillées et de sauces épicées. C'est un plat festif et délicieux qui ravira les amateurs de viande. N'oubliez pas d'inviter vos amis et votre famille à partager ce délicieux repas avec vous !
+
+N'hésitez pas à vous abonner à la newsletter d'Intospectro pour découvrir d'autres recettes africaines alléchantes et des conseils culinaires exclusifs. Bon appetit!
+    </p>
+    <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
+    </html>
+    """,
+
+    f"""
+    <html>
+    <head></head>
+    <h3>Le Shawarma fait maison:</h3>
+    <p>
+    Ingrédients :
+- 500g de viande (poulet, agneau, boeuf)
+- 4 cuillères à soupe de yaourt nature
+- 2 cuillères à soupe d'huile d'olive
+- 2 cuillères à soupe de jus de citron
+- 4 gousses d'ail écrasées
+- 1 cuillère à café de cumin moulu
+- 1 cuillère à café de paprika
+- 1 cuillère à café de coriandre moulue
+- 1 cuillère à café de curry en poudre
+- Sel et poivre au goût
+- Pain pita ou tortilla
+- Légumes (tomates, concombres, oignons, salade) pour garnir
+
+Instructions :
+1. Coupez la viande en fines lamelles.
+2. Dans un bol, mélangez le yaourt, l'huile d'olive, le jus de citron, l'ail écrasé, le cumin, le paprika, la coriandre, le curry, le sel et le poivre.
+3. Ajoutez la viande dans le mélange de marinade et mélangez pour bien enrober la viande. Laissez mariner au réfrigérateur pendant au moins 1 heure (plus la viande marine, meilleur sera le goût).
+4. Préchauffez une poêle ou un grill à feu moyen-élevé.
+5. Faites cuire la viande marinée dans la poêle ou sur le grill pendant environ 5-7 minutes de chaque côté, ou jusqu'à ce qu'elle soit bien cuite.
+6. Pendant ce temps, faites chauffer les pains pita ou les tortillas selon les instructions du paquet.
+7. Garnissez les pains chauds avec la viande grillée et ajoutez les légumes de votre choix (tomates, concombres, oignons, salade).
+8. Servez chaud et dégustez votre shawarma fait maison !
+
+Vous pouvez également ajouter des sauces comme de l'houmous, de la sauce au yogourt ou du tahini pour plus de saveurs. Bon appétit !
+    </p>
+    <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
+    </html>
+    """,
+    
+    f"""
+    <html>
+    <head></head>
+    <h3>la sauce gumbo</h3>
+    <p>
+    La sauce gombo, également connue sous le nom de "gumbo", est une recette originaire d'Afrique de l'Ouest, plus précisément de pays comme le Nigeria, le Ghana et le Sénégal. Elle est préparée à base de gombos, des légumes verts ressemblant à des doigts de dame, ainsi que d'autres ingrédients tels que de la tomate, de l'oignon, de l'ail, des épices et de la viande ou des crevettes.
+
+Pour préparer la sauce gombo, voici une recette de base:
+
+Ingrédients:
+- 500g de gombos frais
+- 2 tomates
+- 1 oignon
+- 2 gousses d'ail
+- 250g de viande ou de crevettes
+- Huile végétale
+- Sel, poivre, épices au goût
+
+Instructions:
+1. Laver les gombos et couper les extrémités. Enlever les petites pointes avec un couteau.
+2. Couper les gombos en rondelles.
+3. Dans une casserole, faire chauffer un peu d'huile végétale. Ajouter l'oignon haché et l'ail émincé. Faire revenir jusqu'à ce qu'ils deviennent translucides.
+4. Ajouter la viande ou les crevettes dans la casserole et faire cuire jusqu'à ce qu'ils soient bien dorés.
+5. Ajouter les rondelles de gombo dans la casserole, ainsi que les tomates coupées en dés. Remuer délicatement.
+6. Assaisonner avec du sel, du poivre et les épices de votre choix. Couvrir la casserole et laisser mijoter à feu doux pendant environ 20 minutes, ou jusqu'à ce que les gombos soient tendres.
+7. Si la sauce est trop épaisse, vous pouvez ajouter un peu d'eau pour l'alléger. Si elle est trop liquide, laisser cuire à découvert pour réduire et épaissir la sauce.
+8. Servir la sauce gombo chaude accompagnée de riz, de couscous ou de pain.
+
+Notez que cette recette peut être adaptée en fonction de vos préférences personnelles et des ingrédients disponibles. Vous pouvez ajouter d'autres légumes, des épices supplémentaires ou ajuster les quantités selon votre goût.
+
+Bon appétit !
+    </p>
+    <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
+    </html>
+    """,
+    
+   
+    
+   
 ]
 
 
@@ -2303,6 +2709,7 @@ personnes ont réussi, c'est donc faisable avec de la persévérance.
 
 <p></p>
  <em>Intospectro Newsletter</em>
+ <a href="#">se désabonner</a>
 
 </html>
 """,
@@ -2327,6 +2734,7 @@ Essayez cette méthode de stimulation de la créativité grâce à la méditatio
 
 <p></p>
  <em>Intospectro Newsletter</em>
+ <a href="#">se désabonner</a>
 </html>
 """,
 
@@ -2374,6 +2782,7 @@ votre chance de réaliser ce que vous avez toujours rêvé d’accomplir... !
 
 </p>
  <em>Intospectro Newsletter</em>
+ <a href="#">se désabonner</a>
 <p></p>
 
 </html>
@@ -2401,6 +2810,7 @@ Par Alexandre Philippe
 
 <p></p>
  <em>Intospectro Newsletter</em>
+ <a href="#">se désabonner</a>
 
 </html>
 """,
@@ -2426,6 +2836,7 @@ Et s'il suffisait de choisir ?
 
 <p></p>
  <em>Intospectro Newsletter</em>
+ <a href="#">se désabonner</a>
 </html>
 """,
 
@@ -2457,6 +2868,7 @@ Suivez mon crédo:<br>
 
 <p></p>
  <em>Intospectro Newsletter</em>
+ <a href="#">se désabonner</a>
 </html>
 """,
 
@@ -2478,6 +2890,7 @@ Pas après pas, petit à petit, vous arriverez à de grandes choses, je vous le 
 
 <p></p>
  <em>Intospectro Newsletter</em>
+ <a href="#">se désabonner</a>
 
 </html>
 """,
@@ -2499,6 +2912,7 @@ garder, car c'est avec elle que vous bâtirez la vie à laquelle vous aspirez
 
 <p></p>
  <em>Intospectro Newsletter</em>
+ <a href="#">se désabonner</a>
 
 </html>
 """,
@@ -2530,6 +2944,7 @@ encore et encore !
 
 <p></p>
  <em>Intospectro Newsletter</em>
+ <a href="#">se désabonner</a>
 </html>
 """,
 
@@ -2554,6 +2969,7 @@ pas le temps passer car vous vous amusez
 
 </p>
  <em>Intospectro Newsletter</em>
+ <a href="#">se désabonner</a>
 <p></p>
 
 </html>
@@ -2589,6 +3005,7 @@ Comment bien écouter ?<br>
 
 <p></p>
  <em>Intospectro Newsletter</em>
+ <a href="#">se désabonner</a>
 </html>
 """,
 f"""<html>
@@ -2624,6 +3041,7 @@ Si vous vous y tenez, un jour la montagne sera derrière vous et rien ne pourra 
 
 <p></p>
  <em>Intospectro Newsletter</em>
+ <a href="#">se désabonner</a>
 </html>
 """,
 
@@ -2645,6 +3063,7 @@ Ayez des raisons très fortes de faire ce que vous faites, et c'est ainsi que vo
 
 <p></p>
  <em>Intospectro Newsletter</em>
+ <a href="#">se désabonner</a>
 </html>
 """,
 
@@ -2668,6 +3087,7 @@ musculation. Puis, progressivement, augmentez cette période et l'intensité de 
 
 <p></p>
  <em>Intospectro Newsletter</em>
+ <a href="#">se désabonner</a>
 </html>
 """,
 
@@ -2696,6 +3116,7 @@ C'est tout pour le moment.
 
 <p></p>
  <em>Intospectro Newsletter</em>
+ <a href="#">se désabonner</a>
 </html>
 """,
 
@@ -2727,6 +3148,7 @@ permettant aux idées de germer<br>
 
 <p></p>
  <em>Intospectro Newsletter</em>
+ <a href="#">se désabonner</a>
 </html>
 """,
 
@@ -2755,6 +3177,7 @@ bonheur !
 
 <p></p>
  <em>Intospectro Newsletter</em>
+ <a href="#">se désabonner</a>
 </html>
 """,
 
@@ -2792,6 +3215,7 @@ Par Angélique Tartière
 
 <p></p>
  <em>Intospectro Newsletter</em>
+ <a href="#">se désabonner</a>
 </html>
 """,
 
@@ -2816,6 +3240,7 @@ relation saine avec soi-même, autrui et la réalité en général.
 
 <p></p>
  <em>Intospectro Newsletter</em>
+ <a href="#">se désabonner</a>
 </html>
 """,
 
@@ -2844,6 +3269,7 @@ N’oubliez pas ceci : il suffit parfois de quelques petits changements pour att
 
 <p></p>
  <em>Intospectro Newsletter</em>
+ <a href="#">se désabonner</a>
 </html>
 """,
 ]
@@ -2882,6 +3308,7 @@ Plantez les graines de vos futures actions, entretenez-les et plus tard vous en 
     
 #     </p>
 # <em>Intospectro Newsletter</em>
+#<a href="#">se désabonner</a>
 #     </html>""",
 
 
@@ -2900,6 +3327,7 @@ vous surprendrez en "mode négatif", switchez consciemment vers une pensée posi
 deviendra de plus en plus difficile de vous pourrir la vie par des pensées improductives</p>
     
     <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
     
     </html>""",
     f"""\<html>
@@ -2916,6 +3344,7 @@ Lancez-vous des défis et partagez-les avec votre entourage. Si vous voulez chan
 vous même. On ne peut pas changer les autres, on peut seulement les inspirer à changer.</p><br>
     <p></p>
      <em>Intospectro Newsletter</em>
+     <a href="#">se désabonner</a>
     </html>""",
 
 
@@ -2937,6 +3366,7 @@ Avoir une bonne communication interne est capital à votre réussite. A chaque f
 dur avec vous-même, posez-vous la question :<br>
 Si mon (ma) meilleur(e) ami(e) me parlait comme ça, est-ce que je le/la garderais ?<br></p>
      <em>Intospectro Newsletter</em>
+     <a href="#">se désabonner</a>
     </html>""",
 
     
@@ -2957,6 +3387,7 @@ accumulé, il ne s’agissait en fait que d’une petite facette de la vérité.
 Pour finir, je crois qu’on ne se développe personnellement qu’en faisant face à l’adversité, la contrainte, et en 
 enseignant aux autres notre expérience.<br></p>
      <em>Intospectro Newsletter</em>
+     <a href="#">se désabonner</a>
     
     
     </html>""",
@@ -2970,6 +3401,7 @@ C'est votre passage à l'action et la mise en pratique de ce que vous apprenez q
 Demandez-vous toujours quelle action vous devez mettre en place tout de suite pour utiliser ce que vous apprenez.<br></p>
    
  <em>Intospectro Newsletter</em>
+ <a href="#">se désabonner</a>
     
     
     </html>""",
@@ -3008,6 +3440,7 @@ Dernière chose, OSEZ ! Sur votre lit de mort vous regretterez les choses que vo
 que vous avez tentées de faire…<br></p>
  
  <em>Intospectro Newsletter</em>
+ <a href="#">se désabonner</a>
     </html>""",
     
     f"""<html>
@@ -3036,6 +3469,7 @@ Faites tout ce que vous voulez au cours de cette journée, sans culpabiliser. Re
 ensuite !<br></p>
    
  <em>Intospectro Newsletter</em>
+ <a href="#">se désabonner</a>
     </html>""",
      f"""<html>
     <head></head>
@@ -3050,7 +3484,99 @@ ou tard donc autant commencer dès maintenant !
 </p>
 
  <em>Intospectro Newsletter</em>
+ <a href="#">se désabonner</a>
     </html>""",
+
+f"""
+    <html>
+    <head></head>
+    <h3></h3>
+    <p>
+    
+    </p>
+    <p>
+    
+    </p>
+    <p>
+    
+    </p>
+    <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
+    </html>
+    """,
+
+    f"""
+    <html>
+    <head></head>
+    <h3></h3>
+    <p>
+    
+    </p>
+    <p>
+    
+    </p>
+    <p>
+    
+    </p>
+    <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
+    </html>
+    """,
+
+    f"""
+    <html>
+    <head></head>
+    <h3></h3>
+    <p>
+    
+    </p>
+    <p>
+    
+    </p>
+    <p>
+    
+    </p>
+    <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
+    </html>
+    """,
+
+    f"""
+    <html>
+    <head></head>
+    <h3></h3>
+    <p>
+    
+    </p>
+    <p>
+    
+    </p>
+    <p>
+    
+    </p>
+    <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
+    </html>
+    """,
+
+    f"""
+    <html>
+    <head></head>
+    <h3></h3>
+    <p>
+    
+    </p>
+    <p>
+    
+    </p>
+    <p>
+    
+    </p>
+    <em>Intospectro Newsletter</em>
+    <a href="#">se désabonner</a>
+    </html>
+    """,
+
     #Premium
 
     ]
